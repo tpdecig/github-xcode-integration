@@ -13,6 +13,7 @@
 		8C90EEE827BE861A00E8F44A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C90EEE727BE861A00E8F44A /* Preview Assets.xcassets */; };
 		8C90EEF027BE89C000E8F44A /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C90EEEF27BE89C000E8F44A /* Track.swift */; };
 		8C90EEF327BE8A2200E8F44A /* TrackVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C90EEF227BE8A2200E8F44A /* TrackVM.swift */; };
+		8C90EEF827BE8DF100E8F44A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8C90EEF727BE8DF100E8F44A /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		8C90EEE727BE861A00E8F44A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8C90EEEF27BE89C000E8F44A /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 		8C90EEF227BE8A2200E8F44A /* TrackVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackVM.swift; sourceTree = "<group>"; };
+		8C90EEF727BE8DF100E8F44A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 		8C90EED427BE861800E8F44A = {
 			isa = PBXGroup;
 			children = (
+				8C90EEF627BE8DCB00E8F44A /* Git */,
 				8C90EEDF27BE861800E8F44A /* test-github-fev22 */,
 				8C90EEDE27BE861800E8F44A /* Products */,
 			);
@@ -95,6 +98,14 @@
 				8C90EEE227BE861800E8F44A /* ContentView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		8C90EEF627BE8DCB00E8F44A /* Git */ = {
+			isa = PBXGroup;
+			children = (
+				8C90EEF727BE8DF100E8F44A /* .gitignore */,
+			);
+			path = Git;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C90EEE827BE861A00E8F44A /* Preview Assets.xcassets in Resources */,
+				8C90EEF827BE8DF100E8F44A /* .gitignore in Resources */,
 				8C90EEE527BE861A00E8F44A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
