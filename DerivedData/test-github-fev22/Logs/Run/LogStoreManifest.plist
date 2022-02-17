@@ -5,6 +5,109 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>0C83FFB0-1E3E-4260-9D31-A350A3F47F9A</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>0C83FFB0-1E3E-4260-9D31-A350A3F47F9A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>test-github-fev22 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>test-github-fev22</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run test-github-fev22</string>
+			<key>timeStartedRecording</key>
+			<real>666797974.142012</real>
+			<key>timeStoppedRecording</key>
+			<real>666798428.88222396</real>
+			<key>title</key>
+			<string>Run test-github-fev22</string>
+			<key>uniqueIdentifier</key>
+			<string>0C83FFB0-1E3E-4260-9D31-A350A3F47F9A</string>
+		</dict>
+		<key>4BB8AA4C-B5A3-452C-8A69-87F60D8789C1</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>4BB8AA4C-B5A3-452C-8A69-87F60D8789C1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>test-github-fev22 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>test-github-fev22</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run test-github-fev22</string>
+			<key>timeStartedRecording</key>
+			<real>666798429.53912795</real>
+			<key>timeStoppedRecording</key>
+			<real>666798560.30850697</real>
+			<key>title</key>
+			<string>Run test-github-fev22</string>
+			<key>uniqueIdentifier</key>
+			<string>4BB8AA4C-B5A3-452C-8A69-87F60D8789C1</string>
+		</dict>
+		<key>51384FB3-5B31-479C-B2A4-7CA76E693F43</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>51384FB3-5B31-479C-B2A4-7CA76E693F43.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>test-github-fev22 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>test-github-fev22</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run test-github-fev22</string>
+			<key>timeStartedRecording</key>
+			<real>666798822.05767596</real>
+			<key>timeStoppedRecording</key>
+			<real>666798830.562222</real>
+			<key>title</key>
+			<string>Run test-github-fev22</string>
+			<key>uniqueIdentifier</key>
+			<string>51384FB3-5B31-479C-B2A4-7CA76E693F43</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
