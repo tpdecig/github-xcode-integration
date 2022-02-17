@@ -8,17 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var msg : Bool = false
+    @State var humeur : Bool = false
     var body: some View {
         VStack{
             HStack{
                Text("De bonne humeur ce matin ? ")
-               if msg
+               if humeur
                   {Text("oui")}
                else {Text("non")}
             }
             Spacer().frame(width: 10, height: 50)
-         Button("coucou"){msg.toggle()}
+         Button("coucou"){humeur.toggle()}
         }
     }
 }
