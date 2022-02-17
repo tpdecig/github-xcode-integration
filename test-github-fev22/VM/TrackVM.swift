@@ -10,7 +10,7 @@ import Foundation
 
 class TrackVM : TrackDelegate {
     func changed(name: String) {
-        self.name = name
+        self.name = name + " coucou"
     }
     
     func changed(id: Int) {
