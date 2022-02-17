@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct test_github_fev22App: App {
+    var trackvm = TrackVM(track : Track(name: "Song for you", id: 1))
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(vm: trackvm)
         }
     }
 }

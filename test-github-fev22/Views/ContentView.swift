@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var vm : TrackVM
     @State var humeur : Bool = false
+    
     var body: some View {
         VStack{
             HStack{
@@ -17,14 +19,20 @@ struct ContentView: View {
                   {Text("oui")}
                else {Text("non")}
             }
-            Spacer().frame(width: 10, height: 50)
+            Spacer().frame(width: 10, height: 30)
          Button("coucou"){humeur.toggle()}
+            Spacer().frame(width: 10, height: 30)
+            Text(vm.name)
         }
+    }
+    
+    init(vm: TrackVM) {
+        self.vm = vm
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(vm: TrackVM(track: Track(name: "titre piste",id: 1)))
     }
 }
